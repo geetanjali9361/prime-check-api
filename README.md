@@ -15,7 +15,7 @@ npm (Node Package Manager)
 Installation
 
 Clone the repository:
-bashgit clone <your-repo-url>
+bashgit clone (https://github.com/geetanjali9361/prime-check-api.git)
 cd prime-number-api
 
 Install dependencies:
@@ -53,7 +53,8 @@ json{
 
 
 Example Request
-bashcurl http://localhost:3000/check-prime
+curl http://localhost:3000/check-prime
+
 Project Structure
 prime-number-api/
 ├── config/
@@ -63,6 +64,7 @@ prime-number-api/
 │   └── app.js
 ├── package.json
 └── README.md
+
 How It Works
 
 The API receives a request
@@ -94,8 +96,8 @@ Submit a pull request
 License
 This project is open source and available under the MIT License.
 Author
-Your Name - your.email@example.com
+Your Name - geetanjali9361@gmail.com
+
 Acknowledgments
 
-Thanks to the random number API providers
-Inspiration from mathematical prime number algorithms
+Thanks to the random number API providers -https://www.randomnumberapi.com/
