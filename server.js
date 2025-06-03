@@ -5,7 +5,7 @@ app.use(express.json());
 
 // Check if PORT is available
 if (!PORT) {
-    throw new Error("Port is required in the config file");
+    PORT = 3000;
 }
 const authRoutes = require("./routes/auth");
 app.use("/auth", authRoutes);
